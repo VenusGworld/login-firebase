@@ -6,10 +6,14 @@ describe('VerificarCorreoComponent', () => {
   let component: VerificarCorreoComponent;
   let fixture: ComponentFixture<VerificarCorreoComponent>;
 
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ VerificarCorreoComponent ]
+    })
+    .compileComponents();
+  });
+
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [VerificarCorreoComponent]
-    });
     fixture = TestBed.createComponent(VerificarCorreoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

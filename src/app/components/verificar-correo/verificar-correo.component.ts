@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-verificar-correo',
   templateUrl: './verificar-correo.component.html',
   styleUrls: ['./verificar-correo.component.css']
 })
-export class VerificarCorreoComponent {
+export class VerificarCorreoComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 
 }
